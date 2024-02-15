@@ -1,0 +1,10 @@
+.prime{
+    
+    margin: 0 auto;
+}
+#pokemon-name-seacrh{
+    width: 600px;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    font-size: x-large;
+}

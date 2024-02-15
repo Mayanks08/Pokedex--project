@@ -1,0 +1,27 @@
+.plays{
+    flex-basis: 20%;
+    height: 200px;
+    width: 290px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.poke-image{
+    height: 150px;
+    max-height: 80%;
+   
+}
+.newname{
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    color: rgb(200, 101, 8);
+}
+.plays:hover{
+    background-color: rgba(250, 235, 215, 0.758);
+    box-shadow: 3px 4px 7px rgba(5, 168, 100, 0.807);
+    border-radius: 15%;
+}
+.newname:hover{
+    font-weight: bolder;
+}

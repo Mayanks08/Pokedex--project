@@ -1,0 +1,10 @@
+body{
+    background: rgb(221,122,165);
+    background: radial-gradient(circle, rgba(221,122,165,1) 9%, rgba(158,178,223,1) 76%, rgba(48,134,235,1) 88%);
+    letter-spacing: 5px;
+}
+.pokemon-apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

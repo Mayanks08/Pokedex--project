@@ -1,0 +1,30 @@
+.pokemon-list-wrapper{
+    margin: 2rem auto;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    color: beige;
+    font-weight: 800;
+   
+}
+.pokemon-wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btns{
+    margin-top: 50px;
+}
+.btns button{
+    margin: 1rem;
+    padding:2rem;
+    font-weight: 200;
+    color: rgb(73, 73, 2);
+}
+.btns button:hover{
+    background:#3498db;
+    border-radius: 25%;
+    color: antiquewhite;
+    font-size: 20px;
+}
