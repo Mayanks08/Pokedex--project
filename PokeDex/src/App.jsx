@@ -1,6 +1,6 @@
 import Pokedex from './components/Pokedex/Pokedex'
 import './App.css'
-import CoustomRoutes from './routes/coustomRoutes'
+import CoustomRoutes from './routes/CoustomRoutes'
 import { Link } from 'react-router-dom'
 
 function App() {

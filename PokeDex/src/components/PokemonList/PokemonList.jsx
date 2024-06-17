@@ -1,7 +1,7 @@
 
 import './PokemonList.css'
-import Pokemon from "../Pokemon/Pokemon";
-import usePokemonlist from "../../hooks/UsePokemonlist";
+import Pokemon from "../Pokemon/pokemon";
+import usePokemonlist from "../../hooks/UsePokemonList"
 import { useEffect } from 'react';
 function PokemonList() {
     const [ pokemonListState, setPokemonListState] = usePokemonlist(false);

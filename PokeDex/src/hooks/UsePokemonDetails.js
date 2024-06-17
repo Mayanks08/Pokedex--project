@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState,useEffect } from "react";
-import usePokemonlist from "./UsePokemonlist";
+import usePokemonlist from "./UsePokemonList";
 
 function usePokemonDetails(id,pokemonName) {
     const [pokemon,setPokemon] =useState({})
